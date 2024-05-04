@@ -1,6 +1,6 @@
 name: el_responsive
 description: "MediaQuery alternative that triggers rebuild only at the breakpoints that you provided to the package instead of triggering it on every screen change (pixel by pixel)"
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/Errechydy/el_responsive
 repository: https://github.com/Errechydy/el_responsive
 
