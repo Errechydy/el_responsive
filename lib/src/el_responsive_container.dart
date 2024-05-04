@@ -4,6 +4,10 @@ import 'package:flutter/widgets.dart';
 import 'el_responsive_widget.dart';
 import 'el_screen_class.dart';
 
+/// Add `ElResponsiveContainer` widdget at the top level of your app, where you want to listen for screen size changes depending on the breakpoint you provided
+/// Then you can listen to `ElResponsive.of(context)!.screen` anywhere under the widget tree
+/// The widget that has `ElResponsive.of(context)!.screen` in it's build method will get rebuilt whenever the screens provided to `ElResponsiveContainer` changes
+
 class ElResponsiveContainer extends StatefulWidget {
   final Widget child;
   final List<ElScreen> screens;
