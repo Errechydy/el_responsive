@@ -31,7 +31,7 @@ class _ElResponsiveContainerState extends State<ElResponsiveContainer>
 
   ElScreen currentScreenType() {
     final double currentScreenWidth =
-        flutterView.physicalSize.width / devicePixelRatio;
+        flutterView.physicalSize.shortestSide / devicePixelRatio;
 
     for (final elScreen in widget.screens) {
       if (currentScreenWidth < elScreen.breakpoint) {
